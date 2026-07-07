@@ -34,7 +34,7 @@ uuid = { version = "1", features = ["v4"] }
 # These are HSM-native on all production HSMs as of 2026, allowing the signing
 # key to never leave the HSM boundary. ML-DSA remains the post-quantum target
 # once HSM firmware ships FIPS 204 mechanisms.
-ed25519-dalek = { version = "2.1", features = ["rand_core"] }
+ed25519-dalek = { version = "3.0", features = ["rand_core"] }
 p256 = { version = "0.13", features = ["ecdsa"] }
 rand_core = "0.6"
 
